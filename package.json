@@ -1,0 +1,16 @@
+{
+  "name": "tokyo-ame",
+  "version": "0.0.0",
+  "description": "A library to get rainfall intensity at some point in Tokyo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tily <tidnlyam@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^1.4.0",
+    "moment-timezone": "^0.5.4",
+    "superagent": "^2.0.0"
+  }
+}
