@@ -1,5 +1,7 @@
 # tokyo-ame
 
+A library to get rainfall intensity at some point in Tokyo.
+
 ## Usage
 
 ```
