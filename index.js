@@ -51,7 +51,7 @@ var getIntensity = function(options, callback) {
 
 var generateImageURL = function() {
   var time = moment(Math.floor((Date.now() / 1000 - 30) / 300) * 300 * 1000).tz("Asia/Tokyo")
-  return "http://tokyo-ame.jwa.or.jp/mesh/100/" + time.format("YYYYMMDDhhmm") + ".gif"
+  return "http://tokyo-ame.jwa.or.jp/mesh/100/" + time.format("YYYYMMDDHHmm") + ".gif"
 }
 
 var createContext = function(binary) {
